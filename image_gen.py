@@ -21,5 +21,5 @@ def generate_image(prompt):
     image.save(path="image.png")
 
 start = time.time()
-generate_image("A beautiful landscape with a lake and a mountain in the background")
+generate_image("A fat person entering the earth as an asteroid")
 print(time.time() - start, "seconds")
